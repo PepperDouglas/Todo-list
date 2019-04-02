@@ -1,0 +1,86 @@
+body {
+  background-color: aliceblue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.form{
+  width: 100%;
+  text-align: center;
+  /*align: auto;*/
+}
+
+.title{
+  
+}
+
+.description:focus{
+  /* height: 100px;
+  word-break: break-word; */
+}
+
+.sendButton{
+  background-color: rgb(87, 194, 87);
+  color: black;
+  font-size: 16px;
+  padding: 14px 38px;
+  margin-top: 4px;
+}
+
+.appender{
+  
+}
+
+.finished{
+  
+}
+
+.done{
+  background-color: rgb(176, 176, 167);
+  border: 2px black;
+  color: rgb(72, 72, 72);
+  text-align: right;
+  padding-left: 15px;
+  padding-bottom: 8px;
+  text-align: left;
+}
+
+.done h2{
+  text-decoration: line-through;
+}
+
+.done p{
+  text-decoration: line-through;
+}
+
+.new{
+  background-color: aquamarine;
+  border: 2px gray;
+  padding-left: 15px;
+  padding-bottom: 8px;
+}
+
+.expired{
+  background-color: rgb(216, 110, 71);
+  padding-left: 15px;
+  padding-bottom: 8px;
+}
+
+.removeBtn{
+  display: none;
+}
+
+.done .removeBtn{
+  display: block;
+  background-color: rgb(216, 84, 61);
+}
+
+.stateButton{
+  background-color: blanchedalmond;
+  margin-left: 3px;
+}
+
+.retBtn{
+  background-color: rgb(223, 255, 205);
+  margin-left: 3px;
+
+}

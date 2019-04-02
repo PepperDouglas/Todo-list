@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>&lt;/salt&gt; :: ToDo</title>
+  <link rel="stylesheet" type="text/css" href="todo.css">
+  <script src="todo.js" defer></script>
+</head>
+<body>
+  <!-- Add your markup here -->
+  <div class="form">
+      <form action="js/todo.js" target="_self">
+      <fieldset>
+        <legend>Add a to-do post</legend>
+        Title <br><input type="text" class="title" name="title" value=""><br>
+        Description <br>
+        <textarea rows="4" cols="25"class="description" name="description" value=""></textarea><br>
+        Deadline <br><input type="text" class="deadline" name="deadline" value="">
+      </fieldset>
+    </form>
+    <button id="sendCard" class="sendButton">Add card</button>
+    <button class="stateButton">Save</button>
+    <button class="retBtn">Load</button>
+
+  </div>
+
+  <div class="appender">
+  </div>
+  <div class="finished">
+  </div>
+
+</body>
+</html>
