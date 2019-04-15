@@ -1,5 +1,5 @@
 # Todo-list
-A simple todo
+A simple todo. Branch "linted" linted with airbnb and stores card info as objects
 
 Clone down the repo, and navigate in to the folder.
 In the terminal write "python -m SimpleHTTPServer 8080" to serve
